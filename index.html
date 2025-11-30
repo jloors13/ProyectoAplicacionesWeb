@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre HTML | JavaScript | CSS</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HJC</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="recursos.html" data-bs-toggle="dropdown">Recursos</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Infohtml.html">HTML</a></li>
+            <li><a class="dropdown-item" href="infocss.html">CSS</a></li>
+            <li><a class="dropdown-item" href="infojavascrip.html">JavaScript</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+<h2 class="text-center mt-4">Bienvenido a HJC</h2>
+<p class="text-center">Aquí encontrarás información general sobre HTML, CSS y JavaScript.</p>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+  </div>
+  <!-- En esta seccion esta lo que es el carrusel de imagenes -->
+  <div class="carousel-inner">
+
+    <!-- HTML -->
+    <div class="carousel-item active">
+      <a href="Infohtml.html">
+        <img src="./imagenes/html.jpg" class="d-block w-100" alt="HTML">
+      </a>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="carousel-item">
+      <a href="infojavascrip.html">
+        <img src="./imagenes/javascript.jpg" class="d-block w-100" alt="JavaScript">
+      </a>
+    </div>
+
+    <!-- CSS -->
+    <div class="carousel-item">
+      <a href="infocss.html">
+        <img src="./imagenes/css.jpg" class="d-block w-100" alt="CSS">
+      </a>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- En esta seccion tenemos informacion adicional -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Tecnologías Web Principales</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <h4 class="text-primary">HTML</h4>
+      <p>
+        HTML define la estructura de una página web: textos, imágenes, botones y secciones.
+      </p>
+    </div>
+
+    <div class="col-md-4">
+      <h4 class="text-success">CSS</h4>
+      <p>
+        CSS controla la apariencia visual: colores, tamaños, posiciones y estilos.
+      </p>
+    </div>
+
+    <div class="col-md-4">
+      <h4 class="text-warning">JavaScript</h4>
+      <p>
+        JavaScript añade interactividad: animaciones, validaciones y contenido dinámico.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Esta seccion se encuentra el pie de pagina -->
+<footer class="bg-dark text-white mt-4">
+  <div class="container py-4">
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <h5>Sobre nosotros</h5>
+        <p>EQUIPO A</p>
+        <p>Grupo de Práctica Experimental</p>
+      </div>
+
+      <div class="col-md-4 ms-auto">
+        <h5>Contactos</h5>
+        <p>Email:</p>
+        <p>Darwin: darcalleg@uteq.edu.ec</p>
+        <p>Johan: jcarvajall@uteq.edu.ec</p>
+        <p>Jordan: jloors13@uteq.edu.ec</p>
+        <p>Jhon: jriosc@uteq.edu.ec</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center bg-secondary py-2">
+    © 2025 APLICACIONES WEB - GLEISTON GUERRERO - UTEQ
+  </div>
+</footer>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

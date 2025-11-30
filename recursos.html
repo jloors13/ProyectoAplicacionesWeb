@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Disponibles</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .resource-card img {
+            height: 180px;
+            object-fit: cover;
+        }
+        .resource-card {
+            transition: .25s ease;
+        }
+        .resource-card:hover {
+            transform: scale(1.03);
+        }
+        .section-title {
+            border-left: 5px solid #0d6efd;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+    </style>
+
+</head>
+<body class="bg-light">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">HJC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+                <li class="nav-item"><a class="nav-link active" href="recursos.html">Recursos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="text-center py-4">
+    <h2 class="fw-bold">Recursos Disponibles</h2>
+    <p class="text-muted">Consulta todos los recursos que ofrece la web: imágenes, videos, PDF y más.</p>
+</header>
+
+<div class="container">
+
+    <!-- PDFs -->
+    <h4 class="section-title">📘 Documentos PDF</h4>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="imagenes/CSS.jpg" class="card-img-top" alt="PDF">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Introducción a HTML</h6>
+                    <a href="Docs/CSS Avanzado - Javier Eguiluz Pérez.pdf" target="_blank" class="btn btn-danger btn-sm">Abrir PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="imagenes/CSS_Intro.png" class="card-img-top" alt="PDF">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Guía de CSS</h6>
+                    <a href="Docs/Introducción a CSS - Javier Eguiluz Pérez.pdf" target="_blank" class="btn btn-danger btn-sm">Abrir PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Imágenes -->
+    <h4 class="section-title">🖼️ Imágenes</h4>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="img/ejemplo1.jpg" class="card-img-top" alt="Imagen HTML">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Imagen sobre HTML</h6>
+                    <a href="img/ejemplo1.jpg" target="_blank" class="btn btn-primary btn-sm">Ver Imagen</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="img/ejemplo2.jpg" class="card-img-top" alt="Imagen CSS">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Imagen sobre CSS</h6>
+                    <a href="img/ejemplo2.jpg" target="_blank" class="btn btn-primary btn-sm">Ver Imagen</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Videos -->
+    <h4 class="section-title">🎬 Videos</h4>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="img/video-preview.jpg" class="card-img-top" alt="Video HTML">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Tutorial HTML desde cero</h6>
+                    <a href="videos/html.mp4" target="_blank" class="btn btn-success btn-sm">Ver Video</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Otros archivos -->
+    <h4 class="section-title">📄 Otros Archivos</h4>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card resource-card shadow-sm">
+                <img src="img/file-icon.png" class="card-img-top" alt="Archivo Word">
+                <div class="card-body text-center">
+                    <h6 class="card-title fw-bold">Plantilla Word</h6>
+                    <a href="docs/plantilla.docx" target="_blank" class="btn btn-secondary btn-sm">Descargar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
